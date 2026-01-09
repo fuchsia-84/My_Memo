@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メモ帳</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h1>メモ帳</h1>
+        
+        <textarea id="text"></textarea>
+
+        <div class="container">
+            <div class="messages">
+                <span id="message"></span>
+                <span id="caution"></span>
+            </div>
+            <div class="buttons">
+                <button id="clear">削除</button>
+                <button id="save">保存</button>
+            </div>
+            
+        </div>
+    </main>
+    <ul class="attention">
+            <li>端末のブラウザに保存されます。個人情報は保存しないでください。</li>
+            <li>内容は誰にも送信されませんが、端末を使う他の人が閲覧できる可能性があります。</li>
+        </ul>
+    <script src="js/main.js"></script>
+</body>
+</html>

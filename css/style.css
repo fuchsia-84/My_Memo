@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+
+main {
+    width: 360px;
+    margin: 16px auto 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 160px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+button {
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#message {
+    color: black;
+}
+#caution {
+    color: red;
+}
+
+.appear {
+    opacity: 1;
+}
+
+.is-hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.buttons {
+    display: flex;
+    gap: 4px;
+}
+
+.attention {
+    width: 500px;
+    margin: 48px auto 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.attention li {
+    font-size: 12px;
+    line-height: 2.0;
+    letter-spacing: 0.05em;
+}
+.attention li:before {
+    content: '※';
+}
